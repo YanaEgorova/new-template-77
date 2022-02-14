@@ -136,7 +136,7 @@ option {
     visibility: hidden;
 }
 .checkbox-input:checked+.checkbox-label::before {
-    background-color: var(--main-bg-color);
+    background-color: var(--third-brand-color);
 }
 .checkbox-label::before {
     display: block;
