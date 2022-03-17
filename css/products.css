@@ -19,22 +19,31 @@
     margin-bottom: 4rem;
     font-family: var(--title-font);
 }
+
+.sub-title__box {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+}
 .success-message {
     background-color: var(--success);
     padding: 1rem;
     border-radius: 1rem;
     font-size: 1.6rem;
-    width: 100%;
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-    visibility: hidden;
-    margin-bottom: 2rem;
-    position: absolute;
-    top: 15rem;
-    left: 50%;
-    transform: translate(-50%, 0);
+    width: 80%;
     max-width: 140rem;
-    z-index: 9999;
+    text-align: center;
 }
 .success-message--active {
     opacity: 1;
