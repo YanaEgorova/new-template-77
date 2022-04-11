@@ -36,6 +36,16 @@
     transition: all 0.3s ease-in-out;
     visibility: hidden;
 }
+.shop__box.sub-title__box {
+    position: static;
+    background-color: transparent;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
 .success-message {
     background-color: var(--success);
     padding: 1rem;
