@@ -114,9 +114,7 @@
                        <li class="footer__item">
                          <a href="./use.html" class="footer__link">Terms of Use</a>
                         </li>
-                        <li class="item">
-    <a href="./cancellation.html" class="footer__link">Cancellation</a>
-  </li>
+        
                 </ul>
               </div>
               <div class="footer__block">
