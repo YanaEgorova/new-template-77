@@ -5,12 +5,20 @@ body {
   margin: 0;
   position: relative;
   min-height: 100vh;
-  background-color: var(--first-brand-color);
+  /* background-color: var(--first-brand-color); */
 
-  background-image: url('../img/bg.svg');
+  /* background-image: url('../img/bg.svg');
   background-repeat: repeat-y;
   background-size: contain;
-  background-position: center center;
+  background-position: center center; */
+
+  background: repeating-linear-gradient(
+  -45deg,
+  var(--first-brand-color),
+  var(--first-brand-color) 30rem,
+  var(--third-brand-color) 30rem,
+  var(--third-brand-color) 60rem
+);
 }
 *,
 *::before,
